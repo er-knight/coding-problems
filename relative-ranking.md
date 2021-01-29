@@ -1,18 +1,19 @@
-#### Problem
+#### Problem :point_down:
 You are given a list of integers `nums`, representing the number of chess matches each person has won. Return a relative ranking (0-indexed) of each person. If two players have won the same amount, their ranking should be the same.
 
-#### Input 
+#### Sample Input :point_down:
 ```
 nums = [50, 30, 50, 90, 10]
 ```  
-#### Output 
+#### Sample Output :point_down:
 ```
 [1, 2, 1, 0, 3]
 ```
 <details>
 <summary>Expand</summary>
 
-#### Python
+#### Python :point_down:
+
 ```python
 def solve(nums):
     if not(nums):
@@ -35,19 +36,19 @@ def solve(nums):
     return rank
 ```
 
-#### Time Complexity
+#### Time Complexity :point_down:
 ```
 O(n log n)
 ```
 where `n` is the length of `nums`.
 
-#### Space Complexity
+#### Space Complexity :point_down:
 ```
 O(n) 
 ```
 where `n` is the length of `nums`.
 
-#### [@alexwice](https://binarysearch.com/problems/Leaderboard/editorials/320867)'s Solution
+#### [@alexwice](https://binarysearch.com/problems/Leaderboard/editorials/320867)'s Solution :point_down:
 ```python
 def solve(nums):
     unique = sorted(set(nums), reverse=True)
@@ -56,8 +57,8 @@ def solve(nums):
 ```
 </details>
 
-#### Reference
+#### Reference :point_down:
 [geeksforgeeks.org](https://www.geeksforgeeks.org/rank-elements-array/)
 
-#### Solve Here
+#### Solve Here :point_down:
 [binarysearch.com](https://binarysearch.com/problems/Leaderboard)
