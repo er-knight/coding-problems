@@ -21,26 +21,25 @@ nums = [50, 30, 50, 90, 10]
 
 #### Solution
 ```python
-class Solution:
-    def solve(self, nums):
-        if not(nums):
-            return nums
+def solve(nums):
+    if not(nums):
+        return nums
 
-        temp = [(n, i) for i, n in enumerate(nums)]
-        temp.sort(reverse=True, key=lambda x: x[0])
+    temp = [(n, i) for i, n in enumerate(nums)]
+    temp.sort(reverse=True, key=lambda x: x[0])
 
-        rank = [0] * len(nums)
-        rank[temp[0][1]] = 0
-        r = 0
-        
-        for i in range(1, len(temp)):
-            if (temp[i][0] == temp[i-1][0]):
-                rank[temp[i][1]] = r
-            else:
-                r += 1
-                rank[temp[i][1]] = r
+    rank = [0] * len(nums)
+    rank[temp[0][1]] = 0
+    r = 0
 
-        return rank
+    for i in range(1, len(temp)):
+        if (temp[i][0] == temp[i-1][0]):
+            rank[temp[i][1]] = r
+        else:
+            r += 1
+            rank[temp[i][1]] = r
+
+    return rank
 ```
 <hr/>
 
