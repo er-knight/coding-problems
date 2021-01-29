@@ -46,7 +46,7 @@ O(n)
 where `n` is the length of `nums`.
 
 #### Reference
-[geeksforgeeks.com](https://www.geeksforgeeks.org/rank-elements-array/)
+[geeksforgeeks.org](https://www.geeksforgeeks.org/rank-elements-array/)
 
 #### Solve Here
 [binarysearch.com](https://binarysearch.com/problems/Leaderboard)
