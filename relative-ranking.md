@@ -9,6 +9,8 @@ nums = [50, 30, 50, 90, 10]
 ```
 [1, 2, 1, 0, 3]
 ```
+<details>
+<summary>Expand</summary>
 
 #### Python
 ```python
@@ -44,6 +46,15 @@ where `n` is the length of `nums`.
 O(n) 
 ```
 where `n` is the length of `nums`.
+
+#### [@alexwice](https://binarysearch.com/problems/Leaderboard/editorials/320867)'s Solution
+```python
+def solve(nums):
+    unique = sorted(set(nums), reverse=True)
+    index = {v: i for i, v in enumerate(unique)}
+    return [index[v] for v in nums]
+```
+</details>
 
 #### Reference
 [geeksforgeeks.org](https://www.geeksforgeeks.org/rank-elements-array/)
