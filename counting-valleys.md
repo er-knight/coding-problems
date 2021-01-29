@@ -39,6 +39,5 @@ The hiker enters and leaves one valley.
 ```
 </details>
 
-#### Reference :point_down:
 #### Solve Here :point_down:
 [hackerrank.com](https://www.hackerrank.com/challenges/counting-valleys/problem)
