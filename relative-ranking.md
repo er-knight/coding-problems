@@ -9,6 +9,8 @@ nums = [50, 30, 50, 90, 10]
 ```
 [1, 2, 1, 0, 3]
 ```
+#### Explanation :point_down:
+`90` has rank `0`, `50` has rank `1`, `30` has rank `2` and `10` has rank `3`.
 <details>
 <summary>Expand</summary>
 
