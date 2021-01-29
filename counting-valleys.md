@@ -14,12 +14,10 @@ path = UDDDUDUU
 1
 ```
 #### Explanation :point_down:
-If we represent `_` as sea level, a step up as `/`, and a step down as `\`, the hike can be drawn as:  
-```
-_/\      _
-   \    /
-    \/\/
-```
+If we represent `_` as sea level, a step up as `/`, and a step down as `\`, the hike can be drawn as: 
+
+<img src="https://github.com/menobleknight/octo-adventure/blob/main/assets/valley.png" height="80">  
+
 The hiker enters and leaves one valley.
 
 <details>
@@ -27,15 +25,25 @@ The hiker enters and leaves one valley.
 
 #### Python
 ```py
-
+def countValleys(steps, path):
+    valleys = 0
+    level = 0
+    for i in range(steps):
+        if path[i] == 'U':
+            level += 1
+        elif path[i] == 'D':
+            level -= 1
+        if (level == 0) and path[i] == 'U':
+            valleys += 1
+    return valleys
 ```
 #### Time Complexity
 ```
-
+O(steps)
 ```
 #### Space Complexity
 ```
-
+O(1)
 ```
 </details>
 
