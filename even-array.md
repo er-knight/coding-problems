@@ -1,5 +1,5 @@
 #### Topics :point_down:
-[<img src="https://img.shields.io/badge/-array-wheat">](https://github.com/topics/array) [<img src="https://img.shields.io/badge/-modulus-wheat">](https://github.com/topics/modulus)
+![](https://img.shields.io/badge/-array-wheat) ![](https://img.shields.io/badge/-modulus-wheat)
 
 #### Problem :point_down:
 You are given an array `a` of length `n`, which consists of non-negative integers. Note that array indices start from zero.  
