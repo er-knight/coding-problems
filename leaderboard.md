@@ -1,3 +1,6 @@
+#### Topics :point_down:
+[<img src="https://img.shields.io/badge/-array-wheat">](https://github.com/topics/array) [<img src="https://img.shields.io/badge/-hash--map-wheat">](https://github.com/topics/hash-map)
+
 #### Problem :point_down:
 You are given a list of integers `nums`, representing the number of chess matches each person has won. Return a relative ranking (0-indexed) of each person. If two players have won the same amount, their ranking should be the same.
 
