@@ -17,6 +17,7 @@ b = 4
 5
 ```
 #### Explanation :point_down:
+
 There's 10 people and at least 3 are in front and at most 4 are behind.  
 This means you can be in indexes `[0, 1, 2, 3, 4]`. For example, at index 0, 9 people are in front, 0 are behind.
 
