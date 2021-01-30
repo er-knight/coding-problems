@@ -17,6 +17,7 @@ path = UDDDUDUU
 1
 ```
 #### Explanation :point_down:
+
 If we represent `_` as sea level, a step up as `/`, and a step down as `\`, the hike can be drawn as: 
 
 <img src="https://github.com/menobleknight/octo-adventure/blob/main/assets/valley.png" height="80">  
