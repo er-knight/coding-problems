@@ -18,7 +18,7 @@ n = 8
 ```
 #### Explanation :point_down:
 
-<img src="https://github.com/menobleknight/octo-adventure/blob/main/assets/polygon.png" height="150">
+<img src="https://github.com/menobleknight/coding-problems/blob/main/assets/polygon.png" height="150">
 
 Originally given polygon of 8 sides and newly drawn child polygon of 4 side, makes total of 12 sides.
 
