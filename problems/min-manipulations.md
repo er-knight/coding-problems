@@ -1,5 +1,5 @@
 #### Topics :point_down:
-[<img src="https://img.shields.io/badge/-string-wheat">](https://github.com/topics/string)
+![](https://img.shields.io/badge/-string-wheat)
 
 #### Problem :point_down:
 Given two lowercase strings `s1` and `s2` of same length, find minimum number of manipulations required to make two strings anagram without deleting any character.  
