@@ -20,7 +20,7 @@ path = UDDDUDUU
 
 If we represent `_` as sea level, a step up as `/`, and a step down as `\`, the hike can be drawn as: 
 
-<img src="https://github.com/menobleknight/octo-adventure/blob/main/assets/valley.png" height="80">  
+<img src="https://github.com/menobleknight/coding-problems/blob/main/assets/valley.png" height="80">  
 
 The hiker enters and leaves one valley.
 
