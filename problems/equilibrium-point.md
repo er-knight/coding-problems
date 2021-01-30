@@ -39,7 +39,7 @@ def solve(a, n):
     
     for i in range(n):
       if prefix_sum[i] == suffix_sum[i]:
-        return (i+1)
+        return i
         
     return -1
 ```
