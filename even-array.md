@@ -17,6 +17,7 @@ a = [3, 2, 7, 6]
 2
 ```
 #### Explanation :point_down:
+
 In first step, swap 3 and 2.
 ```
 a = [2, 3, 7, 6]
