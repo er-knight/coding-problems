@@ -1,5 +1,5 @@
 #### Topics :point_down:
-[<img src="https://img.shields.io/badge/-string-wheat">](https://github.com/topics/string)
+![](https://img.shields.io/badge/-string-wheat)
 
 #### Problem :point_down:
 An avid hiker keeps meticulous records of their hikes. During the last hike that took exactly `steps`, for every step it was noted if it was an uphill, `U`, or a downhill, `D` step. Hikes always start and end at sea level, and each step up or down represents a `1` unit change in altitude. We define the following terms:  
