@@ -29,7 +29,7 @@ The hiker enters and leaves one valley.
 
 #### Python
 ```py
-def count_valleys(steps, path):
+def solve(steps, path):
     valleys = 0
     level = 0
     for i in range(steps):
