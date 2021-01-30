@@ -1,5 +1,5 @@
 #### Topics :point_down:
-[<img src="https://img.shields.io/badge/-topic--name-wheat">](https://github.com/topics/topic-name)
+![](https://img.shields.io/badge/-topic--name-wheat)
 
 #### Problem :point_down:
 
@@ -29,3 +29,5 @@
 #### Reference :point_down:
 
 #### Solve Here :point_down:
+
+#### Similar Problems :point_down:
