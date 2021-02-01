@@ -30,6 +30,22 @@ def solve(self, s):
 
     return sum_ + n
 ```
+#### C++ :point_down:
+```cpp
+int solve(string s) {
+    int sum_ = 0, n = 0;
+    for (char i: s) {
+        if (isdigit(i)) {
+            n = n * 10 + (i - '0');
+        }
+        else {
+            sum_ += n;
+            n = 0;
+        } 
+    }
+    return sum_ + n;
+}
+```
 #### Time Complexity :point_down:
 ```
 O(n)
