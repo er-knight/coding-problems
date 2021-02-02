@@ -96,5 +96,3 @@ O(n^2)
 
 #### Reference :point_down:
 [geeksforgeeks.org](https://www.geeksforgeeks.org/print-maximum-sum-square-sub-matrix-of-given-size/)
-#### Solve Here :point_down:
-[geeksforgeeks.org](https://practice.geeksforgeeks.org/problems/257a9e27fb3e58255622c8dcb06e0919cc1c6c11/1/?track=30-DOC-day-6&batchId=320#)
