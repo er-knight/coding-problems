@@ -55,11 +55,11 @@ O(n)
 #### Python :point_down:
 ```py
 def solve(a, n):
-    if (n == 1):
-        return 0
-
-    left_sum = 0
     right_sum = sum(a) - a[0]
+    left_sum = 0
+    
+    if (left_sum == right_sum):
+        return 0
     
     for i in range(1, n):
         left_sum += a[i-1]
