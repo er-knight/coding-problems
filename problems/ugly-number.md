@@ -20,23 +20,23 @@ true
 
 #### Python :point_down:
 ```py
-def solve(num):
-    if (num <= 0):
+def solve(n):
+    if (n <= 0):
         return False
 
-    if (num == 1):
+    if (n == 1):
         return True
 
-    while (num % 2 == 0):
-        num //= 2
+    while (n % 2 == 0):
+        n //= 2
 
-    while (num % 3 == 0):
-        num //= 3
+    while (n % 3 == 0):
+        n //= 3
 
-    while (num % 5 == 0):
-        num //= 5
+    while (n % 5 == 0):
+        n //= 5
 
-    if (num == 1):
+    if (n == 1):
         return True
 
     return False
