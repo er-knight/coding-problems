@@ -19,13 +19,13 @@ true
 #### Python :point_down:
 ```py
 def solve(n):
-    s = 1   # start  
-    e = num # end
+    s = 1 # start  
+    e = n # end
     while (s <= e):
         m = (s + e)//2 # mid
-        if (m * m == num):
+        if (m * m == n):
             return True
-        elif (m * m < num):
+        elif (m * m < n):
             s = m + 1
         else:
             e = m - 1
