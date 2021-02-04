@@ -28,14 +28,13 @@ sticks-length    length-of-cut   sticks-cut
 
 #### Python :point_down:
 ```py
-def solve(a):
-    l = len(a)
-    c = [l] # sticks cut
+def solve(a, n):
+    c = [n] # sticks cut
     a.sort()
     
-    for i in range(1, l):
+    for i in range(1, n):
         if (a[i] != a[i-1]):
-            c.append(l - i)
+            c.append(n - i)
             
     return c
 ```
