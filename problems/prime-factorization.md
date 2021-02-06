@@ -3,7 +3,7 @@
 
 #### Problem :point_down:
 You can write out a number as a product of prime numbers, which are its prime factors. The same prime factor may occur more than once.  
-Given an integer `n` greater than 1, find all of its prime factors and return them in sorted order.
+Given an integer `n` greater than `1`, find all of its prime factors and return them in sorted order.
 #### Sample Input :point_down:
 ```
 n = 12
