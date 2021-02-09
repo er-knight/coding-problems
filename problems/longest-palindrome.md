@@ -42,6 +42,28 @@ O(n)
 ```
 O(n)
 ```
+#### Python :point_down:
+```py
+def solve(s):
+    a = set()
+    c = 0 # count
+    for i in s:
+        if i in a:
+            a.remove(i)
+            c += 1
+        else:
+            a.add(i)
+
+    return 2 * c + (1 if a else 0)
+```
+#### Time Complexity :point_down:
+```
+O(n)
+```
+#### Space Complexity :point_down:
+```
+O(n)
+```
 </details>
 
 #### Solve Here :point_down:
