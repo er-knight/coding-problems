@@ -27,14 +27,15 @@ def solve(n):
 
     while (n):
         h += c[n % 16]
-        n //= 16
+        n >>= 4
 
     return h[::-1]
 ```
 #### C++ :point_down:
 ```cpp
 string solve(int n) {
-    if (n == 0) return "0";
+    if (n == 0) 
+        return "0";
 
     string c = "0123456789abcdef"; // hex-code
     string h = "";                 // hexa-decimal
@@ -42,7 +43,7 @@ string solve(int n) {
 
     while (m) {
         h += c[m % 16];
-        m /= 16;
+        m >>= 4;
     }
 
     reverse(h.begin(), h.end());
@@ -51,7 +52,5 @@ string solve(int n) {
 ```  
 </details>
 
-#### Reference :point_down:
-[geeksforgeeks.org](https://www.geeksforgeeks.org/program-decimal-hexadecimal-conversion/)
 #### Solve Here :point_down:
 [leetcode.com](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
