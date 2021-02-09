@@ -21,41 +21,33 @@ def solve(n):
     if (n == 0):
         return '0'
 
-    k = 4294967295 # 32-bit unsigned int max value
-    n = (k + 1 + n) if (n < 0) else n
-    h = '' # hexa-decimal
-    while (n):
-        m = n % 16
-        if (m < 10):
-            h += chr(48 + m)
-        else:
-            h += chr(87 + m)
+    c = '0123456789abcdef' # hex-code
+    h = ''                 # hexa-decimal
+    n = n + (2 ** 32) if (n < 0) else n
 
+    while (n):
+        h += c[n % 16]
         n //= 16
 
-    h = h[::-1]
-
-    return h
+    return h[::-1]
 ```
 #### C++ :point_down:
 ```cpp
 string solve(int n) {
-    unsigned int k = n;
-    string h = ""; // hexa-decimal
-    if (k == 0) return "0";
-    while (k) {
-        int m = k % 16;
-        if (m < 10) {
-            h += (48 + m);
-        }
-        else {
-            h += (87 + m);
-        }
-        k /= 16;
+    if (n == 0) return "0";
+
+    string c = "0123456789abcdef"; // hex-code
+    string h = "";                 // hexa-decimal
+    unsigned int m = n;
+
+    while (m) {
+        h += c[m % 16];
+        m /= 16;
     }
+
     reverse(h.begin(), h.end());
     return h;
-}
+    }
 ```  
 </details>
 
