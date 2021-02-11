@@ -4,6 +4,7 @@
 ![](https://img.shields.io/badge/-binary--search-wheat)
 ![](https://img.shields.io/badge/-binary--search--tree-wheat)
 ![](https://img.shields.io/badge/-binary--tree-wheat)
+![](https://img.shields.io/badge/-bit--manipulation-wheat)
 ![](https://img.shields.io/badge/-dynamic--programming-wheat) 
 ![](https://img.shields.io/badge/-graph-wheat) 
 ![](https://img.shields.io/badge/-hashmap-wheat) 
