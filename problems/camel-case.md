@@ -44,3 +44,5 @@ O(1)
 
 #### Solve Here :point_down:
 [hackerrank.com](https://www.hackerrank.com/challenges/camelcase/problem)
+#### Similar Problems :point_down:
+[binarysearch.com](https://binarysearch.com/problems/camelCase)
