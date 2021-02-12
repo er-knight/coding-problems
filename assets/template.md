@@ -8,7 +8,7 @@
 ![](https://img.shields.io/badge/-bit--manipulation-wheat)
 ![](https://img.shields.io/badge/-dynamic--programming-wheat) 
 ![](https://img.shields.io/badge/-graph-wheat)
-![](https://img.shields.io/badge/-greedy-wheat)  
+![](https://img.shields.io/badge/-greedy-wheat)
 ![](https://img.shields.io/badge/-hash--map-wheat) 
 ![](https://img.shields.io/badge/-hash--set-wheat)
 ![](https://img.shields.io/badge/-heap-wheat) 
