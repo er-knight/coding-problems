@@ -1,12 +1,14 @@
 #### Topics :point_down:
 ![](https://img.shields.io/badge/-array-wheat) 
 ![](https://img.shields.io/badge/-back--tracking-wheat)
+![](https://img.shields.io/badge/-base--conversion-wheat) 
 ![](https://img.shields.io/badge/-binary--search-wheat)
 ![](https://img.shields.io/badge/-binary--search--tree-wheat)
 ![](https://img.shields.io/badge/-binary--tree-wheat)
 ![](https://img.shields.io/badge/-bit--manipulation-wheat)
 ![](https://img.shields.io/badge/-dynamic--programming-wheat) 
-![](https://img.shields.io/badge/-graph-wheat) 
+![](https://img.shields.io/badge/-graph-wheat)
+![](https://img.shields.io/badge/-greedy-wheat)  
 ![](https://img.shields.io/badge/-hashmap-wheat) 
 ![](https://img.shields.io/badge/-heap-wheat) 
 ![](https://img.shields.io/badge/-linked--list-wheat)
@@ -21,6 +23,7 @@
 ![](https://img.shields.io/badge/-string-wheat)
 ![](https://img.shields.io/badge/-two--pointer-wheat)
 ![](https://img.shields.io/badge/-sliding--window--technique-wheat)
+
 
 #### Problem :point_down:
 
