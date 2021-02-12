@@ -37,6 +37,24 @@ O(n)
 #### Space Complexity :point_down:
 ```
 O(n)
+```  
+#### Python :point_down:
+```py
+def solve(s):
+    d = 0 # deletions
+    for i in range(1, len(s)):
+        if (s[i-1] == s[i]):
+            d += 1
+            
+    return d
+```  
+#### Time Complexity :point_down:
+```
+O(n)
+```
+#### Space Complexity :point_down:
+```
+O(1)
 ```
 </details>
 
