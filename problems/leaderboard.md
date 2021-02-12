@@ -68,4 +68,5 @@ def solve(nums):
 [geeksforgeeks.org](https://www.geeksforgeeks.org/rank-elements-array/)
 
 #### Solve Here :point_down:
-[binarysearch.com](https://binarysearch.com/problems/Leaderboard)
+[binarysearch.com](https://binarysearch.com/problems/Leaderboard)  
+[leetcode.com](https://leetcode.com/problems/relative-ranks/)
