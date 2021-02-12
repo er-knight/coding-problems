@@ -34,6 +34,28 @@ def solve(n):
 
     return s[::-1]
 ```  
+#### C++ :point_down:
+```cpp
+string csolve(int n) {
+    if (not n)
+        return "0";
+
+    bool f = (n < 0) ? true : false; // flag
+    string s = "";
+    n = abs(n);
+    while (n) {
+        s += '0' + (n % 7);
+        n /= 7;
+    }
+
+    reverse(s.begin(), s.end());
+
+    if (f)
+        return '-' + s;
+
+    return s;
+    }
+```
 </details>
 
 #### Solve Here :point_down:
