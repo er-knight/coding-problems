@@ -21,29 +21,32 @@ true
 #### Python :point_down:
 ```py
 def solve(n):
-    if (n <= 0):
-        return False
-
-    if (n == 1):
-        return True
-
-    while (n % 2 == 0):
+    while (n % 2 == 0) and n:
         n //= 2
-
-    while (n % 3 == 0):
+    while (n % 3 == 0) and n:
         n //= 3
-
-    while (n % 5 == 0):
+    while (n % 5 == 0) and n:
         n //= 5
 
-    if (n == 1):
-        return True
+    return n == 1
+```   
+#### C++ :point_down:
+```cpp
+bool solve(int n) {
+    while ((n % 2 == 0) and n)
+        n /= 2;
+    while ((n % 3 == 0) and n)
+        n /= 3;
+    while ((n % 5 == 0) and n)
+        n /= 5;
 
-    return False
+    return n == 1;
+}
 ```
 </details>
 
 #### Reference :point_down:
 [geeksforgeeks.org](https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/)
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/ugly-number/)
+[leetcode.com](https://leetcode.com/problems/ugly-number/)  
+[binarysearch.com](https://binarysearch.com/problems/Ugly-Number)
