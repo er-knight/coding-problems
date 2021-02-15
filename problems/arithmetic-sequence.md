@@ -19,7 +19,7 @@ a = [1, 3, 5, 9]
 ```py
 def solve(a):
     n = len(a)
-    d = int((a[n-1] - a[0])/n)
+    d = int((a[-1] - a[0])/n)
 
     k = a[0]
     for i in range(1, n):
@@ -29,6 +29,22 @@ def solve(a):
 
     return a[0]
 ```
+#### Time Complexity :point_down:
+```
+O(n)
+```
+#### Space Complexity :point_down:
+```
+O(1)
+```  
+#### Python :point_down:
+```py
+def solve(a):
+    n = len(a)
+    k = a[0] + a[-1]
+    s = sum(a)
+    return int(k * (n + 1)/2) - s
+```  
 #### Time Complexity :point_down:
 ```
 O(n)
