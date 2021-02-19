@@ -18,16 +18,16 @@ true
 
 #### Python :point_down:
 ```py
-def solve(self, s):
+def solve(s):
     d = {}
     for i in s:
         d[i] = d.get(i, 0) + 1
 
-    odd_count = 0
+    c = 0 # odd_count
     for i in d.values():
         if (i % 2 == 1):
-            odd_count += 1
-        if (odd_count > 1):
+            c += 1
+        if (c > 1):
             return False
 
     return True
@@ -43,4 +43,5 @@ O(n)
 </details>
 
 #### Solve Here :point_down:
-[binarysearch.com](https://binarysearch.com/problems/Palindromic-Anagram)
+[binarysearch.com](https://binarysearch.com/problems/Palindromic-Anagram)  
+[hackerrank.com](https://www.hackerrank.com/challenges/game-of-thrones/problem)
