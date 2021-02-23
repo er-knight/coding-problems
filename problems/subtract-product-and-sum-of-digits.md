@@ -1,4 +1,5 @@
 #### Topics :point_down:
+![](https://img.shields.io/badge/-bit--manipulation-wheat)
 ![](https://img.shields.io/badge/-math-wheat)
 
 #### Problem :point_down:
