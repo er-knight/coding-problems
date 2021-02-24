@@ -26,14 +26,14 @@ n = 5
 #### Python :point_down:
 ```py
 def solve(n):
-        a = [0] # answer
-        for i in range(1, n+1):
-            c = 0 # count
-            while (i):
-                i &= (i-1)
-                c += 1
-            a.append(c)   
-        return a
+    a = [0] # answer
+    for i in range(1, n+1):
+        c = 0 # count
+        while (i):
+            i &= (i-1)
+            c += 1
+        a.append(c)   
+    return a
 ```
 #### Time Complexity :point_down:
 ```
@@ -69,4 +69,5 @@ O(n)
 #### Reference :point_down:
 [twchen.gitbook.io](https://twchen.gitbook.io/leetcode/dynamic-programming/counting-bits)
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/counting-bits/)
+[leetcode.com](https://leetcode.com/problems/counting-bits/)   
+[binarysearch.com](https://binarysearch.com/problems/Set-Bits)
