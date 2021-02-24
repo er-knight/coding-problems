@@ -1,5 +1,6 @@
 #### Topics :point_down:
 ![](https://img.shields.io/badge/-array-wheat) 
+![](https://img.shields.io/badge/-hash--map-wheat) 
 ![](https://img.shields.io/badge/-two--pointer-wheat)
 
 #### Problem :point_down:
@@ -44,6 +45,30 @@ O(n log n)
 #### Space Complexity :point_down:
 ```
 O(1)
+```
+#### Python :point_down:
+```py
+def solve(self, a, t):
+    d = {}
+    for i in a:
+        d[i] = d.get(i, 0) + 1
+
+    r = 0 # result
+    for i in d: 
+        if t % 2 == 0 and i == int(t/2):
+            r += d[i]
+        elif (t - i) in d:
+            r += min(d[i], d[t - i])
+
+    return int(r/2)
+```
+#### Time Complexity :point_down:
+```
+O(n)
+```
+#### Space Complexity :point_down:
+```
+O(n)
 ```
 </details>
 
