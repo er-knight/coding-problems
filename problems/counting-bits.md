@@ -69,5 +69,4 @@ O(n)
 #### Reference :point_down:
 [twchen.gitbook.io](https://twchen.gitbook.io/leetcode/dynamic-programming/counting-bits)
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/counting-bits/)   
-[binarysearch.com](https://binarysearch.com/problems/Set-Bits)
+[leetcode.com](https://leetcode.com/problems/counting-bits/)  
