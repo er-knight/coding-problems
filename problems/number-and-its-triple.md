@@ -45,3 +45,6 @@ O(n)
 
 #### Solve Here :point_down:
 [binarysearch.com](https://binarysearch.com/problems/A-Number-and-Its-Triple)
+
+#### Similar Problems :point_down:
+[leetcode.com](https://leetcode.com/problems/check-if-n-and-its-double-exist/)
