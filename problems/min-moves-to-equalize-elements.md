@@ -38,4 +38,5 @@ O(1)
 #### Reference :point_down:
 [geeksforgeeks.org](https://www.geeksforgeeks.org/minimum-number-increment-operations-make-array-elements-equal/)
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)
+[leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)  
+[binarysearch.com](https://binarysearch.com/problems/List-Equality-with-Increments)
