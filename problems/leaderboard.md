@@ -69,5 +69,5 @@ def solve(nums):
 
 #### Solve Here :point_down:
 [binarysearch.com](https://binarysearch.com/problems/Leaderboard)  
-[leetcode.com](https://leetcode.com/problems/relative-ranks/)
+[leetcode.com](https://leetcode.com/problems/relative-ranks/)  
 [leetcode.com](https://leetcode.com/problems/rank-transform-of-an-array/)
