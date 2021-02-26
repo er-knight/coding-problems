@@ -16,6 +16,7 @@
 ![](https://img.shields.io/badge/-math-wheat)
 ![](https://img.shields.io/badge/-merge--sort-wheat)
 ![](https://img.shields.io/badge/-modulus-wheat) 
+![](https://img.shields.io/badge/-prefix--sum-wheat) 
 ![](https://img.shields.io/badge/-queue-wheat) 
 ![](https://img.shields.io/badge/-quick--sort-wheat) 
 ![](https://img.shields.io/badge/-recursion-wheat)
