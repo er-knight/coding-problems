@@ -62,7 +62,7 @@ def shuffle(a, n):
 ```
 #### Time Complexity :point_down:
 ```
-O(n)
+O(n ^ 2)
 ```
 #### Space Complexity :point_down:
 ```
