@@ -50,4 +50,5 @@ O(1)
 </details>
 
 #### Solve Here :point_down:
-[binarysearch.com](https://binarysearch.com/problems/Light-Bulb-Toggling)
+[binarysearch.com](https://binarysearch.com/problems/Light-Bulb-Toggling)  
+[leetcode.com](https://leetcode.com/problems/bulb-switcher/)
