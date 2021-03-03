@@ -44,6 +44,34 @@ O(n)
 ```
 O(n)
 ```
+#### Python :point_down:
+```py
+def solve(a):
+    n = len(a)
+    b = [0 for i in range(n+1)] # bucket
+
+    for i in a:
+        if i < n:
+            b[i] += 1
+        else:
+            b[n] += 1 
+
+    k = 0
+    for i in range(n, -1, -1):
+        k += b[i]
+        if k == i:
+            return k
+
+    return -1
+```
+#### Time Complexity :point_down:
+```
+O(n)
+```
+#### Space Complexity :point_down:
+```
+O(n)
+```
 </details>
 
 #### Solve Here :point_down:
