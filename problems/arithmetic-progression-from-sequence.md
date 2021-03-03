@@ -37,9 +37,37 @@ O(n log n)
 ```
 O(1)
 ```
-</details>
+#### Python :point_down:
+```py
+def solve(a):
+    a_1, a_n, n = min(a), max(a), len(a)
+    # AP : a_n = a_1 + (n - 1) * d
+    d = (a_n - a_1)//(n - 1)
 
-#### Reference :point_down:
+    if d == 0:
+        return True
+
+    s = set(a)
+    if len(a) != len(s):
+        return False
+
+    a_n = a_1
+    for i in range(1, len(s)):
+        a_n += d
+        if a_n not in s:
+            return False
+
+    return True
+```
+#### Time Complexity :point_down:
+```
+O(n)
+```
+#### Space Complexity :point_down:
+```
+O(n)
+```
+</details>
 
 #### Solve Here :point_down:
 [leetcode.com](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)
