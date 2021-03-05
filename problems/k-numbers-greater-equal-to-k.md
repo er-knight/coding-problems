@@ -75,4 +75,5 @@ O(n)
 </details>
 
 #### Solve Here :point_down:
-[binarysearch.com](https://binarysearch.com/problems/K-Numbers-Greater-Than-or-Equal-to-K)
+[binarysearch.com](https://binarysearch.com/problems/K-Numbers-Greater-Than-or-Equal-to-K)  
+[leetcode.com](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)
