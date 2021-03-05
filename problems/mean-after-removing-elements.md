@@ -1,5 +1,6 @@
 #### Topics :point_down:
 ![](https://img.shields.io/badge/-array-wheat) 
+![](https://img.shields.io/badge/-sorting-wheat)
 
 #### Problem :point_down:
 
