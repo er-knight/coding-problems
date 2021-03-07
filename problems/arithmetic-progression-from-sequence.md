@@ -70,4 +70,5 @@ O(n)
 </details>
 
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)
+[leetcode.com](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)  
+[binarysearch.com](https://binarysearch.com/problems/Arithmetic-Sequence-Permutation)
