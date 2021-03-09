@@ -59,4 +59,5 @@ O(n)
 </details>
 
 #### Solve Here :point_down:
-[binarysearch.com](https://binarysearch.com/problems/String-Isomorphism)
+[binarysearch.com](https://binarysearch.com/problems/String-Isomorphism)  
+[leetcode.com](https://leetcode.com/problems/isomorphic-strings/)
