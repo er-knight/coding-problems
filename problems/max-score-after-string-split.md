@@ -28,8 +28,36 @@ left = "01110" and right = "1"     score = 2 + 1 = 3
 #### Python :point_down:
 ```py
 def solve(s):
-    o = 0 
-    z = [0 for i in range(len(s))]
+    n = len(s)
+    z = [0 for i in range(n)] # zeroes
+    z[0] = int(s[0] == '0')
+    for i in range(1, n):
+        z[i] = z[i-1] + (s[i] == '0')
+
+    o = [0 for i in range(n)] # ones
+    o[-1] = int(s[-1] == '1')
+    for i in range(n-2, -1, -1):
+        o[i] = o[i+1] + (s[i] == '1')
+
+    m = z[0] + o[1] # max score
+    for i in range(1, n-1):
+        m = max(m, z[i] + o[i+1])
+
+    return m          
+```
+#### Time Complexity :point_down:
+```
+O(n)
+```
+#### Space Complexity :point_down:
+```
+O(n)
+```
+#### Python :point_down:
+```py
+def solve(s):
+    o = 0 # ones
+    z = [0 for i in range(len(s))] # zeroes
 
     if s[0] == '0':
         z[0] = 1
@@ -84,4 +112,5 @@ O(1)
 </details>
 
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)
+[leetcode.com](https://leetcode.com/problems/maximum-score-after-splitting-a-string/)  
+[binarysearch.com](https://binarysearch.com/problems/Maximize-Binary-String-Score)
