@@ -1,5 +1,5 @@
 #### Topics :point_down:
-![](https://img.shields.io/badge/-integer-wheat)
+![](https://img.shields.io/badge/-binary--search-wheat)
 
 #### Problem :point_down:
 Given a positive integer `n`, write a function which returns `true` if `n` is a perfect square else `false`.  
@@ -39,6 +39,13 @@ O(log n)
 #### Space Complexity :point_down:
 ```
 O(1)
+```
+
+#### Python :point_down:
+```py
+def solve(n):
+    k = int(sqrt(n))
+    return (k * k) == n
 ```
 </details>
 
