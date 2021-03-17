@@ -30,7 +30,7 @@ def solve(self, s):
 ```
 #### Time Complexity :point_down:
 ```
-O(log₃ n)
+O(log n)
 ```
 #### Space Complexity :point_down:
 ```
@@ -47,7 +47,7 @@ def solve(self, s):
 ```
 #### Time Complexity :point_down:
 ```
-O(log₃ n)
+O(log n)
 ```
 #### Space Complexity :point_down:
 ```
@@ -60,7 +60,7 @@ def solve(self, s):
 ```
 #### Time Complexity :point_down:
 ```
-O(log₃ n)
+O(log n)
 ```
 #### Space Complexity :point_down:
 ```
