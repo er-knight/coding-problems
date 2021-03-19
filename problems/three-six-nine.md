@@ -1,10 +1,9 @@
 #### Topics :point_down:
-![](https://img.shields.io/badge/-array-wheat) 
+![](https://img.shields.io/badge/-array-wheat)
 ![](https://img.shields.io/badge/-math-wheat)
 
 #### Problem :point_down:
-Given an integer `n`, return an array with each number from `1` to `n`, except if it's a multiple of `3` or has a `3`, `6`, or `9` in the number, it should be the string `"clap"`.  
-Return the number as a string.
+Given an integer `n`, return a list with each number from `1` to `n`, except if it's a multiple of `3` or has a `3`, `6`, or `9` in the number, it should be the string `"clap"`.  
 #### Sample Input :point_down:
 ```
 n = 16
@@ -49,6 +48,21 @@ O(n)
 #### Python :point_down:
 ```py
 def solve(n):
+    a = []
+    for i in range(1, n+1):
+        if i % 3 == 0:
+            a.append("clap")
+        else:
+            t = i
+            while t:
+                if (t % 10) in [3, 6, 9]:
+                    a.append("clap")
+                    break
+                t //= 10
+            else:
+                a.append(str(i))
+    
+    return a
     
 ```
 #### Time Complexity :point_down:
