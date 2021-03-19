@@ -35,6 +35,7 @@ def solve(n):
             a.append("clap")
         else:
             a.append(str(i))
+            
     return a
 ```
 #### Time Complexity :point_down:
