@@ -41,24 +41,13 @@ def solve(s, t):
             
     return (n, m)
 ```
-#### Explanation :point_down:
-```
-if s[i] != t[i]
-    if s[i] == '?' and t[i] == alphabet
-         max_difference += 1
-    elif s[i] == alphabet and t[i] == '?'
-         max_difference += 1
-    elif s[i] == alphabet and t[i] == alphabet
-         max_difference += 1
-         mix_difference += 1
-```
 #### Time Complexity :point_down:
 ```
 O(n)
 ```
 #### Space Complexity :point_down:
 ```
-O(n)
+O(1)
 ```
 </details>
 
