@@ -49,5 +49,5 @@ O(1)
 #### Reference :point_down:
 [geeksforgeeks.org](https://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/)
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/factorial-trailing-zeroes/)
+[leetcode.com](https://leetcode.com/problems/factorial-trailing-zeroes/)  
 [codechef.com](https://www.codechef.com/problems/FCTRL)
