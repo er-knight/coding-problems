@@ -60,6 +60,19 @@ O(len(s))
 ```
 O(len(j))
 ```
+#### C++ :point_down:
+```cpp
+int solve(string& j, string& s) {
+    set<char> t(j.begin(), j.end());
+    int c = 0;
+    for (char i: s) {
+        if (t.find(i) != t.end()) { 
+            c++;
+        }
+    }
+    return c;
+}
+```
 </details>
 
 #### Solve Here :point_down:
