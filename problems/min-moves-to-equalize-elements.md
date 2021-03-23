@@ -23,7 +23,12 @@ Only three moves are needed (remember each move increments two elements).
 #### Python :point_down:
 ```py
 def solve(a):
-    return sum(a) - (len(a) * min(a))
+    m = min(a)
+    c = 0
+    for i in a:
+        c += (i - m)
+        
+    return c
 ```  
 #### Time Complexity :point_down:
 ```
@@ -39,4 +44,5 @@ O(1)
 [geeksforgeeks.org](https://www.geeksforgeeks.org/minimum-number-increment-operations-make-array-elements-equal/)
 #### Solve Here :point_down:
 [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)  
-[binarysearch.com](https://binarysearch.com/problems/List-Equality-with-Increments)
+[binarysearch.com](https://binarysearch.com/problems/List-Equality-with-Increments)  
+[codechef.com](https://www.codechef.com/problems/SALARY)
