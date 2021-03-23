@@ -63,4 +63,5 @@ O(len(j))
 </details>
 
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/jewels-and-stones/)
+[leetcode.com](https://leetcode.com/problems/jewels-and-stones/)  
+[codechef.com](https://www.codechef.com/problems/STONES)
