@@ -29,7 +29,7 @@ There are `3` beautiful triplets:
 
 #### Python :point_down:
 ```py
-def beautifulTriplets(d, a):
+def solve(d, a):
     s = set(a)
     c = 0
     for i in a:
