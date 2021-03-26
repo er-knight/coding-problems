@@ -33,7 +33,7 @@ Move 3] 4 → 6
 Move 4] 6 → 0
     e = 93 - 1 = 92
 ```
-Since it reaches `0th` position again, game ends.
+Since player lands back on cloud `0` again, game ends.
 <details>
 <summary>Expand</summary>
 
