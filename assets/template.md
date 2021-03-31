@@ -26,7 +26,6 @@
 ![](https://img.shields.io/badge/-two--pointer-wheat)
 ![](https://img.shields.io/badge/-sliding--window--technique-wheat)
 
-
 #### Problem :point_down:
 
 #### Sample Input :point_down:
