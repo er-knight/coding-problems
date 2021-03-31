@@ -36,7 +36,7 @@
 #### Explanation :point_down:
 
 <details>
-<summary>Expand</summary>
+<summary> <strong>Solution<strong></summary>
 
 #### Python :point_down:
 ```py
