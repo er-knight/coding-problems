@@ -51,9 +51,29 @@ O(log n)
 ```
 O(1)
 ```
+#### Space Complexity :point_down:
+```
+O(log n)
+```  
+#### Python :point_down:
+```py
+def solve(n):
+    return 4294967295 - n
+```  
+#### Note :point_down:
+This works only if `n` is 32-bit integer.
+#### Time Complexity :point_down:
+```
+O(1)
+```
+#### Space Complexity :point_down:
+```
+O(1)
+```
 </details>
 
 #### Reference :point_down:
 [geeksforgeeks.org](https://www.geeksforgeeks.org/invert-actual-bits-number/)
 #### Solve Here :point_down:
-[leetcode.com](https://leetcode.com/problems/number-complement/)
+[leetcode.com](https://leetcode.com/problems/number-complement/)  
+[hackerrank.com](https://www.hackerrank.com/challenges/flipping-bits/problem)
