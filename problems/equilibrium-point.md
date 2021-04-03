@@ -86,4 +86,5 @@ O(1)
 #### Solve Here :point_down:
 [geeksforgeeks.org](https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1)  
 [binarysearch.com](https://binarysearch.com/problems/Index-with-Equal-Left-and-Right-Sums)  
-[leetcode.com](https://leetcode.com/problems/find-pivot-index/)
+[leetcode.com](https://leetcode.com/problems/find-pivot-index/)  
+[hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-array/problem)
