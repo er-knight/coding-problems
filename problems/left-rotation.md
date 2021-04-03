@@ -23,7 +23,7 @@ To perform `d = 4` left rotations, the array undergoes the following sequence of
 
 #### Python :point_down:
 ```py
-def solve(a, d):
+def solve(d, a):
     while d:
         for i in range(1, len(a)):
             a[i], a[i-1] = a[i-1], a[i]
@@ -61,6 +61,11 @@ O(n)
 #### Space Complexity :point_down:
 ```
 O(n)
+```
+#### Python :point_down:
+```py
+def solve(d, a):
+    return a[d:] + a[:d]
 ```
 </details>
 
