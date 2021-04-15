@@ -19,7 +19,7 @@ The `"c"` got deleted by the backspace.
 
 #### Python :point_down:
 ```py
-def solve(self, s):
+def solve(s):
     t = [] # stack
     i, n = 0, len(s)
     while i < len(s):
